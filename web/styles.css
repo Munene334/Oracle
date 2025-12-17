@@ -1,0 +1,20 @@
+:root{
+  --bg:#fff;--muted:#666;--accent:#2b6cb0;--card:#f8fafc
+}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;margin:0;background:var(--bg);color:#111}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:linear-gradient(90deg,#fff,#f7fbff);border-bottom:1px solid #eee}
+.topbar h1{margin:0;font-size:20px;color:var(--accent)}
+.topbar nav a{margin-left:12px;color:var(--muted);text-decoration:none}
+.container{padding:16px}
+.card{background:var(--card);padding:12px;border-radius:8px;margin-bottom:12px;border:1px solid #eee}
+.header{font-size:18px;margin-bottom:8px}
+.btn{display:inline-block;padding:8px 12px;background:var(--accent);color:#fff;border-radius:6px;text-decoration:none}
+.muted{color:var(--muted)}
+.footer{padding:12px;text-align:center;color:var(--muted);font-size:13px;border-top:1px solid #f1f5f9}
+
+.post-verse{color:#2d3748;font-weight:600}
+.reactions{margin-top:8px;display:flex;gap:8px}
+.reaction{padding:6px 8px;background:#fff;border:1px solid #eee;border-radius:6px}
+
+@media (min-width:780px){.container{max-width:860px;margin:24px auto}}
